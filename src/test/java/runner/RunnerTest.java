@@ -11,5 +11,5 @@ import io.cucumber.junit.CucumberOptions;
     glue = "com.stepDefinition",              // The Java files package name
     plugin = {"pretty", "html:target/cucumber-reports.html"}
 )
-public class Runner {
+public class RunnerTest {
 }
